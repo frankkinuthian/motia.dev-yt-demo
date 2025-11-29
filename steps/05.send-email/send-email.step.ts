@@ -10,13 +10,6 @@ export const config: EventConfig = {
   flows: ["yt-workflow"],
 };
 
-interface Video {
-  videoId: string;
-  title: string;
-  url: string;
-  publishedAt: string;
-  thumbnail: string;
-}
 
 interface ImprovedTitle {
   original: string;
