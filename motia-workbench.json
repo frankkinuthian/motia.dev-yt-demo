@@ -35,6 +35,10 @@
       "steps/05.send-email/send-email.step.ts": {
         "x": 982,
         "y": 32
+      },
+      "steps/06.error-handler/error-handler.step.ts": {
+        "x": 789,
+        "y": 197
       }
     }
   }
