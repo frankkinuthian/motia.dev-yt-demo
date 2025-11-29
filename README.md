@@ -100,6 +100,30 @@ After modifying step configurations:
 npx motia generate-types
 ```
 
+### Docker Deployment
+
+To build and run this project with Docker, use the following commands:
+
+**1. Build the Docker image:**
+
+```bash
+docker build -t yt-demo .
+```
+
+**2. Run the Docker container:**
+
+```bash
+docker run -d --rm -p 3000:3000 --name yt-demo-container yt-demo
+```
+
+Your application will be available at [http://localhost:3000](http://localhost:3000).
+
+**3. Stop the container:**
+
+```bash
+docker stop yt-demo-container
+```
+
 ## Project Structure
 
 ```
