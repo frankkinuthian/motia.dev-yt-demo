@@ -5,5 +5,5 @@ venv
 .motia
 .mermaid
 dist
-*.pyc.env
+*.pyc
 .env
