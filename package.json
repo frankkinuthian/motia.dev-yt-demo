@@ -1,6 +1,7 @@
 {
   "name": "yt-demo",
   "description": "",
+  "version": "0.1.1-alpha",
   "scripts": {
     "postinstall": "motia install",
     "dev": "motia dev",

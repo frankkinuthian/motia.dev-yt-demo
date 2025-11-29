@@ -12,5 +12,30 @@
         "sourceHandlePosition": "right"
       }
     }
+  },
+  {
+    "id": "yt-workflow",
+    "config": {
+      "steps/01.submit-api/submit.step.ts": {
+        "x": 54,
+        "y": 0
+      },
+      "steps/02.resolve-channel/resolve-channel.step.ts": {
+        "x": 312,
+        "y": 34
+      },
+      "steps/03.fetch-videos/fetch-videos.step.ts": {
+        "x": 521,
+        "y": 34
+      },
+      "steps/04.ai-title/ai-title-fetch.step.ts": {
+        "x": 708,
+        "y": 34
+      },
+      "steps/05.send-email/send-email.step.ts": {
+        "x": 982,
+        "y": 32
+      }
+    }
   }
 ]

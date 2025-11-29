@@ -7,3 +7,9 @@ const observabilityPlugin = require('@motiadev/plugin-observability/plugin')
 export default config({
   plugins: [observabilityPlugin, statesPlugin, endpointPlugin, logsPlugin],
 })
+
+// export default {
+//   name: "yt-demo",
+//   version: "0.1.1-alpha",
+//   steps: "./steps"
+// }
